@@ -1,0 +1,37 @@
+{
+	"name": "limit-break-transfer-test-contracts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"hardhat:chain": "hardhat node",
+		"hardhat:fork": "hardhat node --network hardhat",
+		"hardhat:compile": "hardhat compile",
+		"hardhat:test": "hardhat test --network hardhat"
+	},
+	"author": "CyberBrokers",
+	"license": "",
+	"workspaces": [
+		"scripts/*"
+	],
+	"devDependencies": {
+		"@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+		"@nomicfoundation/hardhat-ethers": "^3.0.6",
+		"@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+		"@nomicfoundation/hardhat-verify": "^2.0.8",
+		"@nomiclabs/hardhat-web3": "^2.0.0",
+		"@openzeppelin/contracts": "4.8.3",
+		"@openzeppelin/test-helpers": "^0.5.16",
+		"chai": "^4.4.1",
+		"dotenv": "^16.4.5",
+		"ethfs-cli": "^1.0.15",
+		"hardhat": "^2.22.4",
+		"hardhat-gas-reporter": "^2.2.0",
+		"keccak256": "^1.0.6",
+		"prettier": "^3.2.5",
+		"web3": "^1.10.4"
+	},
+	"dependencies": {
+		"@limitbreak/creator-token-standards": "^4.0.1"
+	}
+}
